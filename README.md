@@ -118,10 +118,10 @@ final saleOrderRepo = env.of<SaleOrderRepository>();
 final saleOrderLineRepo = saleOrderRepo.env.of<SaleOrderLineRepository>();
 ```
 
-Here is an example how `NetConnState` can be implemented with [connectivity](https://pub.dev/packages/connectivity) package.
+Here is an example how `NetConnState` can be implemented with [connectivity_plus](https://pub.dev/packages/connectivity_plus) package.
 
 ```dart
-import 'package:connectivity/connectivity.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:odoo_repository/odoo_repository.dart'
     show netConnState, NetConnState;
 
